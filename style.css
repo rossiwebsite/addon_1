@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Card style */
+.card {
+  background: #fff;
+  border-radius: 16px;      /* biar gak lancip */
+  padding: 15px;            /* kasih space dalam */
+  margin-bottom: 20px;
+}
+
+/* Gambar */
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;      /* rounded juga, biar match sama card */
+  margin-bottom: 15px;      /* kasih jarak ke teks */
+}
+
+/* Isi card */
+.card-body h2 {
+  margin: 0 0 10px;
+  color: #202124;
+}
+
+.card-body p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Tombol */
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #d93025;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
